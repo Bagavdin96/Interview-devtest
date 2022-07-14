@@ -4,7 +4,6 @@ import service from "./app/data";
 import ColumnItem from "./components/ColumnItem";
 
 function App() {
-  const [employees, setEmploy] = useState(service.getEmployees());
   const [columns, setColumns] = useState([
     "CompanyName",
     "City",
@@ -29,7 +28,7 @@ function App() {
         <div className="info">Окно предварительного просмотра отчёта</div>
         <DataGrid
           id="gridContainer"
-          dataSource={employees}
+          dataSource={service.getEmployees()}
           keyExpr="ID"
           allowColumnReordering={true}
           allowColumnResizing={true}
