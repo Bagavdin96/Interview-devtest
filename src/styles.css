@@ -1,0 +1,65 @@
+#gridContainer {
+  /* height: 550px; */
+  position: absolute;
+  width: 1008px;
+  left: 17px;
+  top: 94px;
+}
+.flex-container{
+  display: flex;
+}
+.containerDataGrid{
+  position: absolute;
+  width: 1033px;
+  height: 910px;
+  left: 20px;
+  top: 31px;
+  background-color: #C4C4C4;
+}
+.container{
+  position: absolute;
+  width: 353px;
+  height: 910px;
+  left: 1067px;
+  top: 31px;
+  background: #C4C4C4;
+}
+.info{
+position: absolute;
+width: 338px;
+height: 22px;
+left: 15px;
+top: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.columnList{
+  margin: 50px 0px 10px 30px;
+}
+button{
+  background: transparent;
+  border: none;
+  width: 25px;
+  height: 25px;
+}
+.addColumn{
+  display: flex;
+  flex-direction: column;
+}
+.addColumn input{
+  width: 150px;
+  align-self: center;
+}
+.addColumn button{
+  align-self: center;
+  width: auto;
+}
